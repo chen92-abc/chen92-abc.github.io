@@ -1,40 +1,32 @@
+
+:root {
+  --main-bg-color: #f0f8ff; /* AliceBlue background */
+  --main-text-color: #000000; /* Black text */
+  --header-bg-color: #1e3a8a; /* Dark blue header */
+  --nav-link-color: #f0f8ff; /* Light text for nav links */
+  --section-bg-color: #e3f2fd; /* Light blue section background */
+}
+
 body {
-  background-color: #ffe4e1;
-  color: #333;
-}
-header, footer {
-  background-color: #ffc0cb;
-  color: white;
-  padding: 1rem 0;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 
-h1, h2, h3 {
-  color: #d87093;
+header {
+  background-color: var(--header-bg-color);
 }
 
-.navbar-light .navbar-brand,
-.navbar-light .nav-link {
-  color: #d87093;
+.nav-link {
+  color: var(--nav-link-color);
 }
 
-.card {
-  border: 1px solid #ffc0cb;
+section {
+  background-color: var(--section-bg-color);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 16px 0;
 }
 
-.card-title {
-  color: #c71585;
-}
-
-.card-text {
-  color: #e75480;
-}
-
-button {
-  background-color: #ff69b4;
-  color: white;
-  border: none;
-}
-
-button:hover {
-  background-color: #ff1493;
+h2.text-center {
+  color: var(--main-text-color);
 }
